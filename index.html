@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/logo.ico" type="image/x-icon">
+    <title>Projeto JokenPô</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">JokenPô</h1>
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">🪨</button>
+            <button id="paper" onclick="playHuman('paper')">📄</button>
+            <button id="scissors" onclick="playHuman('scissors')">✂️</button>
+        </div>
+        <div class="box-result">
+            <p class="result"></p>
+        </div>
+        <h2 class="scoreh2">Placar</h2>
+        <br>
+        <div class="scores">
+            <p class="scoreYou">😎 Você <span id="scoreYou">0</span> </p>
+            <p class="scoreMachine"> 🤖 Máquina <span id="scoreMachine">0</span> </p>
+        </div>
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
