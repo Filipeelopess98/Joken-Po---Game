@@ -14,8 +14,6 @@ const GAME_OPTIONS = {
 }
 
 
-
-
 const playHuman = (humanchoice) => {
     playGame(humanchoice, playMachine())
 

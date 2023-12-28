@@ -7,18 +7,22 @@
 
 
 body {
+
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #444344, #12b0e0, #e4d4a1);
-    min-height: 100vh;
+    background-image: url(assets/fundo2.jpg);
+    background-size: 100%;
+    height: 100vh;
+
+
 }
+
 
 .container {
     padding: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: #E6E6FA;
     width: 340px;
     height: 440px;
     border: none;
@@ -40,11 +44,13 @@ body {
 }
 
 button {
-    font-size: 55px;
-    border-radius: 20px;
+    font-size: 48px;
+    border-radius: 18px;
     border: none;
     cursor: pointer;
-    transition: transform 0.3s ease
+    transition: transform 0.3s ease;
+    padding: 10px;
+
 }
 
 button:active {
@@ -56,17 +62,17 @@ button:active {
 
 
 #rock {
-    background-color: #969393;
+    background-color: #8B008B;
 
 }
 
 #paper {
-    background-color: rgb(130, 173, 211);
+    background-color: #8B008B;
 
 }
 
 #scissors {
-    background-color: #525151;
+    background-color: #8B008B;
 
 
 }
@@ -74,7 +80,7 @@ button:active {
 .title {
     padding-top: 45px;
     font-size: 50px;
-    color: #444344;
+    color: #8B008B;
 }
 
 @keyframes animacaoTexto {
@@ -119,11 +125,12 @@ p {
 
 
 .box-result {
-    background-color: #eff0f0;
+    background-color: #8B008B;
     border-radius: 20px;
     height: 290px;
     width: 250px;
     margin-bottom: 20px;
+    color: #ffff;
 
 
 }
@@ -141,19 +148,28 @@ p {
 .scoreh2 {
     font-size: 20px;
     font-weight: 500;
-    color: #444344;
+    color: #464546;
 }
 
 
 .scoreYou span {
-    color: #18bbec;
+    color: #8B008B;
     font-weight: 600;
     font-size: 18px;
 }
 
 
 .scoreMachine span {
-    color: #e4d4a1;
+    color: #8B008B;
     font-weight: 600;
     font-size: 18px;
+
+}
+
+
+.autor {
+    color: #ffff;
+    font-weight: 500;
+    font-size: 12px;
+
 }
