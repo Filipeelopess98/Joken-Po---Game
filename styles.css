@@ -22,7 +22,7 @@ body {
 
 .container {
     padding: 50px;
-    background-color: #E6E6FA;
+    background-color: #e6e6faf3;
     width: 340px;
     height: 440px;
     border: none;
@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-sizing: 1px 1px 1px 1px #d3d3d3;
+    box-sizing: 5px 5px 5px 5px #d612d6;
 
 
 }
@@ -50,11 +50,12 @@ button {
     cursor: pointer;
     transition: transform 0.3s ease;
     padding: 10px;
+    height: 100px;
 
 }
 
 button:active {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
 
 }
 
@@ -96,7 +97,7 @@ button:active {
 }
 
 h1 {
-    animation: animacaoTexto 3s ease-in-out;
+    animation: animacaoTexto 2s ease-in-out;
 }
 
 
@@ -126,7 +127,7 @@ p {
 
 .box-result {
     background-color: #8B008B;
-    border-radius: 20px;
+    border-radius: 22px;
     height: 290px;
     width: 250px;
     margin-bottom: 20px;
